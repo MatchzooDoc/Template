@@ -21,5 +21,5 @@ if you modify the po files, run
 python generate.py zh update
 ```
 
-##Notice
+## Notice
 if you manage the doc on the readthedocs,mo files are not necessary,they only care po,rst,conf 
