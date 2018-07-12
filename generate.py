@@ -12,7 +12,7 @@ if option=='fbuild':#first build
     os.chdir(Matchzoo_path)
     os.system('git checkout 2.0')
     os.chdir(doc_path)
-    os.system('sphinx-apidoc -o ./source '+matchzoo_path)
+    os.system('sphinx-apidoc -f -o ./source '+matchzoo_path)
     os.system('make gettext')
     os.system('sphinx-intl update -p _build/gettext -l '+language)
     os.system('sphinx-intl build')
