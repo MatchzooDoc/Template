@@ -12,9 +12,9 @@ if you build at the first time, run
 python generate.py -l zh -a fbuild
 ```  
 if your network is not good enough to clone the submodule,run  
-``
+``python
 python generate.py -l zh -a fbuild -r
-``
+``  
 if the main project update, run
 ```python
 python generate.py -l zh -a rebuild
